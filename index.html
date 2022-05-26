@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/app.css">
+    <link rel="stylesheet" href="/assets/css/icons/css/all.min.css">
+    <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css">
+    <script defer src="/assets/js/app.js"></script>
+    <script src="/assets/js/swiper-bundle.min.js"></script>
+    <script src="/assets/js/scrollreveal.min.js"></script>
+    <title>House State</title>
+</head>
+<body>
+    <!--========Navigation========-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">House<span><i class="fa-solid fa-home"></i>State</span></a>
+            
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active__link">
+                            <i class="fa fa-home-alt"></i>
+                            <span>Accueil</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#residence" class="nav__link">
+                            <i class="fa-solid fa-building"></i>
+                            <span>Résidences</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#price" class="nav__link">
+                            <i class="fa-solid fa-money-bill"></i>
+                            <span>Prix</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>Contact</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <a href="#" class="button">Souscrire</a>
+        </nav>
+    </header>
+
+    <!--======Main======-->
+    <main class="main">
+        <!--========Home section========-->
+        <section class="home section" id="home">
+            <div class="home__container container">
+                <div class="home__display">
+                    <h1 class="home__title">Découvrez <br> Les meilleures résidences <br> et proprietés.</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, laudantium. Quibusdam quae dolor sunt maiores sed! Eius soluta.</p>
+                    
+                    <form action="" class="home__search">
+                        <i class="fa-solid fa-location"></i>
+                        <input type="search" placeholder="Trouvez votre maison" class="home__search__input">
+                        <button class="button">Recherche</button>
+                    </form>
+
+                    <div class="home__value">
+                        <div>
+                            <h1 class="home__value--number">10k <span>+</span></h1>
+                            <span class="home__value--description">Premium <br> Produit</span>
+                        </div>
+                        <div>
+                            <h1 class="home__value--number">8k <span>+</span></h1>
+                            <span class="home__value--description">Custom <br> Intérieur</span>
+                        </div>
+                        <div>
+                            <h1 class="home__value--number">30k <span>+</span></h1>
+                            <span class="home__value--description">Luxe <br> Immobilier</span>
+                        </div>
+                    </div>
+                
+                </div>
+
+                <div class="home__image">
+                    <div class="home__img">
+                        <img src="/assets/images/home.jpg" alt="home">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=======Logo section========-->
+        <section class="logo section">
+            <div class="logo__container">
+                <div class="logo__image">
+                    <img src="/assets/images/logo.png" alt="logo melcode">
+                </div>
+            </div>
+        </section>
+        <!--======Residence section =======-->
+        <section class="residence container section" id="residence">
+                <span class="section__subtitle">Meilleurs Choix</span>
+                <h2 class="section__title">Résidences Populaires<span>.</span></h2>
+
+                <div class="residence__container swiper">
+                    <div class="swiper-wrapper">
+                        <article class="residence__card swiper-slide">
+                            <img src="/assets/images/residence1.jpg" alt="residence" class="residence__img">
+                            <div class="residence__data">
+                                <h2 class="residence__price"><span>$</span>120,000</h2>
+                                <h3 class="residence__title">Garden Site</h3>
+                                <p class="residence__description">Beverly Street, Libreville - Gabon .Bp92514</p>
+                            </div>
+                        </article>
+
+                        <article class="residence__card swiper-slide">
+                            <img src="/assets/images/residence2.jpg" alt="residence" class="residence__img">
+                            <div class="residence__data">
+                                <h2 class="residence__price"><span>$</span>85,000</h2>
+                                <h3 class="residence__title">Luxor villa</h3>
+                                <p class="residence__description">Beverly Street, Libreville - Gabon .Bp92514</p>
+                            </div>
+                        </article>
+
+                        <article class="residence__card swiper-slide">
+                            <img src="/assets/images/residence3.jpg" alt="residence" class="residence__img">
+                            <div class="residence__data">
+                                <h2 class="residence__price"><span>$</span>70,000</h2>
+                                <h3 class="residence__title">House Ice</h3>
+                                <p class="residence__description">Beverly Street, Libreville - Gabon .Bp92514</p>
+                            </div>
+                        </article>
+
+                        <article class="residence__card swiper-slide">
+                            <img src="/assets/images/residence4.jpg" alt="residence" class="residence__img">
+                            <div class="residence__data">
+                                <h2 class="residence__price"><span>$</span>182,000</h2>
+                                <h3 class="residence__title">Parkew City</h3>
+                                <p class="residence__description">Beverly Street, Libreville - Gabon .Bp92514</p>
+                            </div>
+                        </article>
+                    </div>
+                   <div class="swiper__button">
+                    <div class="swiper-button-next"><i class="fa-solid fa-chevron-right"></i></div>
+                    <div class="swiper-button-prev"><i class="fa-solid fa-chevron-left"></i></div>
+                   </div>
+                </div>
+            
+        </section>
+
+        <!--=======Value========-->
+        <section class="value section" id="price">
+            <div class="value__container container grid">
+                <div class="value__image">
+                    <div class="value__img">
+                        <img src="/assets/images/value.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="value__content">
+                    <div class="value__data">
+                        <span class="section__subtitle">Notre immobilier</span>
+                        <h2 class="section__title">Valeur à vous offrir<span>.</span></h2>
+                        <p class="value__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate sint dolor repudiandae enim maiores nemo distinctio accusantium molestias ex, earum fugit laudantium ut assumenda nobis doloribus optio possimus quo similique!</p>
+                    </div>
+
+                    <div class="value__accordion">
+                        <div class="value__accordion__item">
+                            <header class="value__accordion__header">
+                                <i class="fa-solid fa-shield icon"></i>
+                                <h3 class="value__accordion__title">Meilleur intéret pour le marché</h3>
+                                <div class="value__accordion__arrow">
+                                    <i class="fa-solid fa-sort-down"></i>
+                                </div>
+                            </header>
+                            <div class="value__accordion__content">
+                                <p class="value__accordion__description">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quos eveniet ullam dolorem assumenda totam iusto, ipsam veniam! Neque facere modi suscipit distinctio ex sed ipsam ab commodi, nisi excepturi?
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="value__accordion__item">
+                            <header class="value__accordion__header">
+                                <i class="fa-solid fa-square-xmark icon"></i>
+                                <h3 class="value__accordion__title">Prévision des prix instables</h3>
+                                <div class="value__accordion__arrow">
+                                    <i class="fa-solid fa-sort-down"></i>
+                                </div>
+                            </header>
+                            <div class="value__accordion__content">
+                                <p class="value__accordion__description">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quos eveniet ullam dolorem assumenda totam iusto, ipsam veniam! Neque facere modi suscipit distinctio ex sed ipsam ab commodi, nisi excepturi?
+                                </p>
+                            </div>
+                        </div>
+                        <div class="value__accordion__item">
+                            <header class="value__accordion__header">
+                                <i class="fa-solid fa-square-poll-vertical icon"></i>
+                                <h3 class="value__accordion__title">Meilleures ventes sur le marché</h3>
+                                <div class="value__accordion__arrow">
+                                    <i class="fa-solid fa-sort-down"></i>
+                                </div>
+                            </header>
+                            <div class="value__accordion__content">
+                                <p class="value__accordion__description">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quos eveniet ullam dolorem assumenda totam iusto, ipsam veniam! Neque facere modi suscipit distinctio ex sed ipsam ab commodi, nisi excepturi?
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="value__accordion__item">
+                            <header class="value__accordion__header">
+                                <i class="fa-solid fa-check-square icon"></i>
+                                <h3 class="value__accordion__title">Sécurité pour vos données</h3>
+                                <div class="value__accordion__arrow">
+                                    <i class="fa-solid fa-sort-down"></i>
+                                </div>
+                            </header>
+                            <div class="value__accordion__content">
+                                <p class="value__accordion__description">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quos eveniet ullam dolorem assumenda totam iusto, ipsam veniam! Neque facere modi suscipit distinctio ex sed ipsam ab commodi, nisi excepturi?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=======Contact======-->
+        <section class="contact section" id="contact">
+            <div class="contact__container container grid">
+                <div class="contact__image">
+                    <div class="contact__img">
+                        <img src="/assets/images/contact.jpg" alt="contact__img">
+                    </div>
+                </div>
+                <div class="contact__content">
+                    <div class="contact__data">
+                        <span class="section__subtitle">Nous contacter</span>
+                        <h2 class="section__title">Prendre contact facilement<span>.</span> </h2>
+                        <p class="contact__description">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos explicabo.
+                        </p>
+                    </div>
+                    <div class="contact__card">
+                        <div class="contact__card__box">
+                            <div class="contact__card__info">
+                                <i class="fa-solid fa-phone"></i>
+                                <div>
+                                    <h3 class="contact__card__title">Appel</h3>
+                                    <p class="contact__card__description">+241 00 00 00</p>
+                                </div>
+                            </div>
+                            <button class="button__contact">Applez maintenant</button>
+                        </div>
+
+                        <div class="contact__card__box">
+                            <div class="contact__card__info">
+                                <i class="fa-solid fa-message"></i>
+                                <div>
+                                    <h3 class="contact__card__title">Message</h3>
+                                    <p class="contact__card__description">+241 00 00 00</p>
+                                </div>
+                            </div>
+                            <button class="button__contact">Enoyez un message</button>
+                        </div>
+
+                        <div class="contact__card__box">
+                            <div class="contact__card__info">
+                                <i class="fa-solid fa-video"></i>
+                                <div>
+                                    <h3 class="contact__card__title">Appel vidéo</h3>
+                                    <p class="contact__card__description">Skype,Instagram</p>
+                                </div>
+                            </div>
+                            <button class="button__contact">Lancez un applel vidéo</button>
+                        </div>
+                        <div class="contact__card__box">
+                            <div class="contact__card__info">
+                                <i class="fa-solid fa-envelope"></i>
+                                <div>
+                                    <h3 class="contact__card__title">Email</h3>
+                                    <p class="contact__card__description">housestate@gmail.com</p>
+                                </div>
+                            </div>
+                            <button class="button__contact">Enoyez un mail</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--====Subscribe====-->
+        <section class="subscribe section">
+            <div class="subscribe__container container">
+                <h1 class="subscribe__title">
+                    Débutez avec HouseState
+                </h1>
+                <p class="subscribe__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse dolorem, vel vero animi nisi quis provident nihil, aspernatur soluta dolorum sed vitae! Adipisci, natus labore dolore voluptatem dolorum optio nam?</p>
+                <a href="#" class="subscribe__button">Commencez</a>
+            </div>
+        </section>
+    </main>
+
+    <!--====Footer====-->
+    <footer class="footer__section section">
+        <div class="footer__container container">
+            <div>
+                <h2 class="footer__title">House<i class="fa-solid fa-home"></i>State</h2>
+                <p class="footer__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga dignissimos culpa ipsum sunt ut, vitae exercitationem dolorem eveniet tenetur fugiat obcaecati minima.</p>
+            </div>
+
+            <div>
+                <h2 class="footer__title">Nos réseaux</h2>
+                <div class="footer__sociaux">
+                    <i class="fab fa-skype"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+
+            <div>
+                <h2 class="footer__title">Partenaires</h2>
+                <p>House Refresh</p>
+                <p>Construction Plan</p>
+                <p>Décorator Studio</p>
+            </div>
+        </div>
+        <hr>
+        <p class="footer__hr">Désign et développé par Melcode@-2022</p>
+    </footer>
+
+    <a href="#" class="scroll__up" id="scroll-up">
+        <i class="fa-solid fa-chevron-up"></i>
+    </a>
+</body>
+</html>
